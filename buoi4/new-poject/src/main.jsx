@@ -31,6 +31,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <h1 className="title">Hello</h1>
   <h2 classname="abc">Hello wword</h2>
 </div>
-{sum(a,b)}
+{/* {sum(a,b)} */}
   </div>
 );
