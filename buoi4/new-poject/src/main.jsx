@@ -1,6 +1,6 @@
 
 import ReactDOM from 'react-dom/client';
-import {a,b} from"./DemoModule";
+// import {a,b} from"./DemoModule";
 const myName = "Nguyen Yen Nhi";
 const myAge = 20;
 const isMarried = true;

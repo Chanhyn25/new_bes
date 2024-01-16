@@ -1,0 +1,144 @@
+*{ 
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.container{
+    background-color: #ffffff;
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+}
+.menu ul{
+    margin-left: 80%;
+    display: flex;
+}
+.menu ul li {
+    display: inline;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.menu ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.item_name{
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+}
+.item_text h2{
+    width: 80%;
+    font-size: 40px;
+}
+.item_name p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    width: 80%;
+}
+ .all{
+    background-color: #FF6464;
+    width: 20%;
+    height: 30px;
+}
+.all a{
+    font-size: 15px;
+    margin-left: 4px;
+    text-decoration: none;
+    color: #FFECEC;
+    font-weight: bold;
+}
+.colum-row1{
+    background-color: #EDF7FA;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 64px;
+}
+.recentpost {
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+.recentpost .view{
+    margin-left: 60%;
+    color: #00A8CC;
+}
+.recentpost p{
+    color: #000;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.col1 {
+    background-color: #ffffff;
+    width: 70%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.col1 h5{
+    width: 80%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 25px;
+    padding-top: 30px;
+}
+.col1 p{
+    justify-content: center;
+    margin-left: 25px;
+    font-size: 15px;
+}
+.colum-row2 {
+    margin-top: 60px;
+    margin-left: 10%;
+}
+.cot1{
+    
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.imgimg img{
+    width: 50%;
+    height: auto;
+}
+.nd{
+    width: 80%;
+}
+.text-lg {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.product{
+    display: flex;
+}
+.nd span{
+    color: #8695A4;
+    margin-left: 80px ;
+    font-size: 20px;
+}
+.nd p{
+    width: 100%;
+    font-size: 23px;
+    margin-top: 20px;
+}
+.haizz {
+    width: 60px;
+    background-color: #000;
+    border-radius: 5px ;
+}
+.haizz a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 14px;
+}
