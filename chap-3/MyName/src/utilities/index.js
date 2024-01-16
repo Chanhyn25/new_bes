@@ -1,6 +1,10 @@
-import Navigo from "navigo";
-const Navigo = new Navigo("/",{linkSelector: "a", hash:true});
-const reder= (content, targer) => {
-    targer.innerHTML = content();
+import NavigoLibrary from "navigo";
+
+const navigoInstance = new NavigoLibrary("/", { linkSelector: "a", hash: true });
+
+const reder = (content, target) => {
+    target.innerHTML = content();
 }
-export {reder,route};
+
+export { reder, navigoInstance as route };
+ 
