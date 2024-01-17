@@ -13,10 +13,14 @@ import Aboutpage from "./pages/aboutpage";
 import product from "./pages/product";
 import {reder, route} from "./utilities";
 import productDetail from "./pages/productDetail";
+import AdminProductsPage from "./pages/admin/products";
 // app.innerHTML = Homepage();
 route.on('/',() => reder(Homepage,app));
 route.on('/about',() => reder(Aboutpage,app));
 route.on('/product', () => reder(product,app));
 route.on('/product/:id',({data}) => reder(()=>productDetail(data),app));
+
+//
+route.on("/admin/products",() => reder(AdminProductsPage,app));
 route.notFound(() => reder());
 route.resolve();
